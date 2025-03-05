@@ -5,27 +5,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Resume</title>
-    <style>
-        .container {
-            width: 80%;
-            margin: 0 auto;
-            display: flex;
-            justify-content: center;
-            height: 100vh;
-        }
+    <link rel="stylesheet" href="./css/style.css">
 
-        h1 {
-            background-color: yellow;
-            align-self: center;
-            color: red;
-        }
-    </style>
+
 </head>
 
 <body>
     <!--Container-->
     <div class="container">
-        <h1>Bodloza David</h1>
+        <!--Profile Summary-->
+        <section class="profile">
+            <div class="profile_container">
+                <div class="profile_img">
+                    <img src="./assets/images/myImage.jpg" alt="">
+                </div>
+                <div class="profile_text">
+                    <h1 class="profile_name">
+                        <span class="profile_lastName">Bodloza</span>
+                        <span class="profile_firstName">David</span>
+                    </h1>
+                    <p class="profile_title">Software Developer</p>
+                    <p class="description">I pride myself on being a goal-oriented individual. I work well in a team
+                        environment and use my
+                        initiative. Although I know that my previous work experience does not align with the position I
+                        am applying for,
+                        I have discovered that the principle remains the same (Customer Service). I aim to use my strong
+                        organizational
+                        skills and educational background to become competent from anywhere in the world.
+                    </p>
+                    <div class="downloadBtn">
+                        <a href="./assets/images/cv.pdf" download="resume.pdf">Download CV</a>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
 
 </body>
