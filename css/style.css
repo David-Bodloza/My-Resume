@@ -97,4 +97,7 @@ a {
     padding: 3rem;
     gap: 7rem;
   }
+  .profile_container {
+    flex-direction: column;
+  }
 }
