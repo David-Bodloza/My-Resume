@@ -1,8 +1,5 @@
 /**Mobile Devices */
 @media (max-width: 480px) {
-  body {
-    background-color: lightsalmon;
-  }
   .profile {
     text-align: center;
   }
@@ -71,6 +68,7 @@
     line-height: 1.4;
   }
   .title {
+    margin-top: 3rem;
     color: hsl(357, 50%, 22%);
     font-weight: 700;
     font-size: 2rem;
