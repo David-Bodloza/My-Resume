@@ -89,6 +89,7 @@ hr {
   .container {
     width: 85%;
     margin: 0 auto;
+    margin-bottom: 4rem;
   }
   .profile {
     text-align: center;
